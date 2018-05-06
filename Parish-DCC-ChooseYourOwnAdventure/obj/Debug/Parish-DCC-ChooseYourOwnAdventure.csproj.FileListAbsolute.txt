@@ -1,0 +1,7 @@
+C:\Users\Matthew_2\source\repos\Parish-DCC-ChooseYourOwnAdventure\Parish-DCC-ChooseYourOwnAdventure\bin\Debug\Parish-DCC-ChooseYourOwnAdventure.exe.config
+C:\Users\Matthew_2\source\repos\Parish-DCC-ChooseYourOwnAdventure\Parish-DCC-ChooseYourOwnAdventure\bin\Debug\Parish-DCC-ChooseYourOwnAdventure.exe
+C:\Users\Matthew_2\source\repos\Parish-DCC-ChooseYourOwnAdventure\Parish-DCC-ChooseYourOwnAdventure\bin\Debug\Parish-DCC-ChooseYourOwnAdventure.pdb
+C:\Users\Matthew_2\source\repos\Parish-DCC-ChooseYourOwnAdventure\Parish-DCC-ChooseYourOwnAdventure\obj\Debug\Parish-DCC-ChooseYourOwnAdventure.csprojResolveAssemblyReference.cache
+C:\Users\Matthew_2\source\repos\Parish-DCC-ChooseYourOwnAdventure\Parish-DCC-ChooseYourOwnAdventure\obj\Debug\Parish-DCC-ChooseYourOwnAdventure.csproj.CoreCompileInputs.cache
+C:\Users\Matthew_2\source\repos\Parish-DCC-ChooseYourOwnAdventure\Parish-DCC-ChooseYourOwnAdventure\obj\Debug\Parish-DCC-ChooseYourOwnAdventure.exe
+C:\Users\Matthew_2\source\repos\Parish-DCC-ChooseYourOwnAdventure\Parish-DCC-ChooseYourOwnAdventure\obj\Debug\Parish-DCC-ChooseYourOwnAdventure.pdb
