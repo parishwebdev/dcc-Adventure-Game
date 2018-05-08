@@ -25,7 +25,7 @@ namespace Parish_DCC_ChooseYourOwnAdventure
         }
         public string GetSettingText()
         {
-            settingText = "a aquarium-blue stream of water tumbleing down the small mountain. ";
+            settingText = "an aquarium-blue stream of water tumbleing down the small mountain. ";
             return settingText;
         }
         public string GetPersuasionText()

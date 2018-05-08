@@ -39,7 +39,7 @@ namespace Parish_DCC_ChooseYourOwnAdventure
         }
         private string HappilyEverAfter()
         {
-            happilyEverAfterText = "You wonder through the woods and meet a guy you same age. He ends up being a prince.\nAfter years of knowing the prince you get married and live happly ever after.";
+            happilyEverAfterText = "You wander through the woods and meet a guy your same age. He ends up being a prince.\nAfter years of knowing the prince, you get married and live happly ever after.";
             return happilyEverAfterText;
         }
         public void PopulateActions(List<Action> path)
@@ -61,7 +61,7 @@ namespace Parish_DCC_ChooseYourOwnAdventure
         }
         private string StartOfAdventure()
         {
-            introductionText = "This is a adventure spin off of little red riding hod. \n";
+            introductionText = "This is a adventure spin off of little red riding hood. \n";
             return introductionText;
         }
         private void CrossRoadOneText()
