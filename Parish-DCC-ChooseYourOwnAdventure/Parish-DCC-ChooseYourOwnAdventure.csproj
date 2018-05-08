@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbandonCabin.cs" />
+    <Compile Include="Bridge.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -50,6 +51,7 @@
     <Compile Include="UserInterface.cs" />
     <Compile Include="Village.cs" />
     <Compile Include="Waterfall.cs" />
+    <Compile Include="Woods.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

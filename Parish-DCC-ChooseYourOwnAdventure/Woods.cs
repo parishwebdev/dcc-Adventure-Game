@@ -6,31 +6,31 @@ using System.Threading.Tasks;
 
 namespace Parish_DCC_ChooseYourOwnAdventure
 {
-    class Waterfall
+    class Woods
     {
         public string name;
         public string optionText;
         public string settingText;
         public string persuasionText;
 
-        public Waterfall(string name)
+        public Woods(string name)
         {
             this.name = name;
         }
 
         public string GetOptionText()
         {
-            optionText = " \"Waterfall\": Take the aquarium-blue waterfall path? ";
+            optionText = "\"Woods\": Woods Option text. ";
             return optionText;
         }
         public string GetSettingText()
         {
-            settingText = "a aquarium-blue stream of water tumbleing down the small mountain. ";
+            settingText = "Setting 2: Woods Setting text. ";
             return settingText;
         }
         public string GetPersuasionText()
         {
-            persuasionText = "It seemed great to Red, given it was called " + name + " it seemed like a amazing option. ";
+            persuasionText = "Persuasion 2: Woods Persuasion text. ";
             return persuasionText;
         }
 

@@ -20,24 +20,20 @@ namespace Parish_DCC_ChooseYourOwnAdventure
 
         public string GetOptionText()
         {
-            optionText = "\"River\": River Option text. ";
+            optionText = "\"River\": Take the jewel-blue river path? ";
             return optionText;
         }
         public string GetSettingText()
         {
-            settingText = "Setting 1: River Setting text. ";
+            settingText = "Red sees a jewel-blue stream with a family of ducks floating along.";
             return settingText;
         }
         public string GetPersuasionText()
         {
-            persuasionText = "Persuasion 1: River Setting text. ";
+            persuasionText = "It seemed big to Red, given it was called " + name + " it seemed like a good option. ";
             return persuasionText;
         }
 
-        public bool IsCorrectChoice()
-        {
-            return true;
-        }
 
     }
 }

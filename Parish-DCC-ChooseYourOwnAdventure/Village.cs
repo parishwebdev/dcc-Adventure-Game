@@ -20,24 +20,20 @@ namespace Parish_DCC_ChooseYourOwnAdventure
 
         public string GetOptionText()
         {
-            optionText = "\"Village\": Village Option text. ";
+            optionText = " \"Village\": Take the quaint village path? ";
             return optionText;
         }
         public string GetSettingText()
         {
-            settingText = "Setting 1: Village Setting text. ";
+            settingText = "a smaller quaint area with housing with nice people walking around. ";
             return settingText;
         }
         public string GetPersuasionText()
         {
-            persuasionText = "Persuasion 1: Village Setting text. ";
+            persuasionText = "It seemed pleasant, nice and not to crowded. The village was named " + name;
             return persuasionText;
         }
 
-        public bool IsCorrectChoice()
-        {
-            return true;
-        }
 
     }
 }

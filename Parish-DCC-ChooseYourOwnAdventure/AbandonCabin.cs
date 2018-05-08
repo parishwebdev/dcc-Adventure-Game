@@ -20,23 +20,19 @@ namespace Parish_DCC_ChooseYourOwnAdventure
 
         public string GetOptionText()
         {
-            optionText = "\"Abandon-Cabin\": AbandonCabin text. ";
+            optionText = "\"Abandon Cabin\": Take the brown and worn abandoned cabin path? ";
             return optionText;
         }
         public string GetSettingText()
         {
-            settingText = "Setting 2: AbandonCabin Setting text. ";
+            settingText = "Next, Red sees a washed out brown cabin with parts of worn down.";
             return settingText;
         }
         public string GetPersuasionText()
         {
-            persuasionText = "Persuasion 2: AbandonCabin Setting text. ";
+            persuasionText = "Red was wondering that the " + name + " was once a cool place to visit.";
             return persuasionText;
         }
 
-        public bool IsCorrectChoice()
-        {
-            return false;
-        }
     }
 }
