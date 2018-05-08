@@ -20,17 +20,17 @@ namespace Parish_DCC_ChooseYourOwnAdventure
 
         public string GetOptionText()
         {
-            optionText = "\"Bridge\": Bridge Option text. ";
+            optionText = "\"Bridge\": Take the broken down, midevil bridge path? ";
             return optionText;
         }
         public string GetSettingText()
         {
-            settingText = "Setting 1: Bridge Setting text. ";
+            settingText = "Next, Red sees a broken down, cobblestone and midevil looking bridge. ";
             return settingText;
         }
         public string GetPersuasionText()
         {
-            persuasionText = "Persuasion 1: Bridge Persuasion text. ";
+            persuasionText = "Despite being named " + name + "she believes it look like many people have gone across it. ";
             return persuasionText;
         }
 

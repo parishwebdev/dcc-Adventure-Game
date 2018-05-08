@@ -25,7 +25,7 @@ namespace Parish_DCC_ChooseYourOwnAdventure
         }
         public string GetSettingText()
         {
-            settingText = "Next, Red sees a washed out brown cabin with parts of worn down.";
+            settingText = "Next, Red sees a washed out brown cabin with parts of worn down. ";
             return settingText;
         }
         public string GetPersuasionText()

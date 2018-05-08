@@ -25,7 +25,7 @@ namespace Parish_DCC_ChooseYourOwnAdventure
         }
         public string GetSettingText()
         {
-            settingText = "Red sees a jewel-blue stream with a family of ducks floating along.";
+            settingText = "Red sees a jewel-blue stream with a family of ducks floating along. ";
             return settingText;
         }
         public string GetPersuasionText()

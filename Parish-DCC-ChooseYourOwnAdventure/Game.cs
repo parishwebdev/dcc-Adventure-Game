@@ -8,11 +8,7 @@ namespace Parish_DCC_ChooseYourOwnAdventure
 {
     class Game
     {
-        string introductionText;
-        string startOverText;
-        string gameOverText;
-        string spotByWolfText;
-        string safeToMoveText;
+        string introductionText, gameOverText, spotByWolfText, safeToMoveText, happilyEverAfterText;
         List<Action> path = new List<Action>();
         UserInterface ui = new UserInterface();
         River river = new River("Great River");
@@ -28,19 +24,23 @@ namespace Parish_DCC_ChooseYourOwnAdventure
             PopulateActions(path);
             TravsereToGrandma(path);
         }
-
         private string GameOver() {
             gameOverText = "After being going over the bridge, you end up at grandma's house.\nOnly to find out grandma isn't there anymore. The Wolf is there and gets Red. Adventure Over! ";
             return gameOverText;
         }
         private string SpotByWolf()
         {
-            spotByWolfText = "You guess wrong, the wolf attacks you. Red runs back to her own house. \n";
+            spotByWolfText = "You guess wrong, the wolf tries to attacks you, but Red runs fast away. \n";
             return spotByWolfText;
         }
         private string SafeToMove(){
             safeToMoveText = "You guess right, you keep moving without spotting the wolf.";
             return safeToMoveText;
+        }
+        private string HappilyEverAfter()
+        {
+            happilyEverAfterText = "You wonder through the woods and meet a guy you same age. He ends up being a prince.\nAfter years of knowing the prince you get married and live happly ever after.";
+            return happilyEverAfterText;
         }
         public void PopulateActions(List<Action> path)
         {
@@ -53,24 +53,19 @@ namespace Parish_DCC_ChooseYourOwnAdventure
         }
         public void TravsereToGrandma(List<Action> path)
         {
-            foreach (Action a in path)
-            {
-                    a.Invoke();
+
+           foreach (Action a in path) {
+                    a();
             }
+
         }
         private string StartOfAdventure()
         {
             introductionText = "This is a adventure spin off of little red riding hod. \n";
             return introductionText;
         }
-        private string StartOver()
-        {
-            startOverText = "After getting some sleep, Red trys to get to Grandmas again. ";
-            return startOverText;
-        }
         private void CrossRoadOneText()
         {
-
             String textCR1 = river.GetSettingText() + river.GetPersuasionText() + "On the other hand you see: " + waterfall.GetSettingText() + waterfall.GetPersuasionText();
             ui.OutputText(textCR1);
         }
@@ -101,14 +96,15 @@ namespace Parish_DCC_ChooseYourOwnAdventure
             string result = ui.GetOptionInput(bridge.GetOptionText(), woods.GetOptionText());
             return result;
         }
+        
         public void Selector(string selection, List<Action> path)
         {
 
             switch (selection)
             {
                 case "woods":
-                    ui.OutputText("You wonder through the woods and meet a guy you same age. He ends up being a prince.\nAfter years of knowing the prince you get married and live happly ever after.");
-                break;
+                    ui.OutputText(HappilyEverAfter()); 
+                    break;
                 case "river":
                 case "village":
                     ui.OutputText(SafeToMove());
@@ -116,8 +112,6 @@ namespace Parish_DCC_ChooseYourOwnAdventure
                 case "waterfall":
                 case "abandon cabin":
                          ui.OutputText(SpotByWolf());
-                         ui.OutputText(StartOver());
-                         TravsereToGrandma(path);
                     break;
                 case "bridge":
                     ui.OutputText(GameOver());

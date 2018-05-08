@@ -20,17 +20,17 @@ namespace Parish_DCC_ChooseYourOwnAdventure
 
         public string GetOptionText()
         {
-            optionText = "\"Woods\": Woods Option text. ";
+            optionText = " \"Woods\": take the dense and dark woods path? ";
             return optionText;
         }
         public string GetSettingText()
         {
-            settingText = "Setting 2: Woods Setting text. ";
+            settingText = "a tall and dense woods, that looks dark and visibility is low. ";
             return settingText;
         }
         public string GetPersuasionText()
         {
-            persuasionText = "Persuasion 2: Woods Persuasion text. ";
+            persuasionText = "Red is unsure if is the right path. Although its name " + name + "makes her think otherwise";
             return persuasionText;
         }
 
